@@ -11,7 +11,6 @@ data = pd.DataFrame(
         "Loan Default": [1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1],
     }
 )
-data
 
 data.sort_values("Age")
 
@@ -30,7 +29,6 @@ data2 = pd.DataFrame(
         "Loan Default": [1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1],
     }
 )
-data2
 data2.sort_values("Age")
 
 age_sal_tree = DecisionTreeClassifier(random_state=17)
